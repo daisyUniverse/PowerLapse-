@@ -5,6 +5,11 @@ This script was created to automate time lapse creation to the point of not havi
 
 I've also built tools in this for automatically converting each day into a time lapse video, and then at the end of a long period of time, -superlapse can be invoked to combine all videos generated so far. You can even combine that with -amen to add a fun little breakcore soundtrack to the video
 
+This script can be run from anywhere, but keep in mind that it's built to start to create it's working files inside of wherever you start the script from, creating a `res` (resource) folder, which contains all time lapse data, it will also create a `latest.png` image in the root, always being a copy of whatever the last time lapse pic was. `superlapse.mp4` and `superlapse_amen.mp4` are also generated in the root folder
+
+![image](https://github.com/user-attachments/assets/400f7d50-38bb-4498-992d-c52b31b2cdb7)
+
+
 ## The intention is for this to be triggered via Window's Task Scheduler, for example...
 
 ![image](https://github.com/user-attachments/assets/e4e6fd13-72df-41d6-85b4-f199369d0c79)
