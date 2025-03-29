@@ -1,6 +1,10 @@
 # PowerLapse!
 Powershell script for creating time lapses with your webcam
 
+This script was created to automate time lapse creation to the point of not having to think about it whatsoever - It simply needs to be invoked and it will generate a new image, placed in a unique folder for each day, and named both with the time of day, and it's index (ie 0001, 0002, 0003, etc). The frequency of the time lapse is controled entirely by how often you invoke it and by what scheduling system you use, I have mine set to take a picture every five minutes, for example. 
+
+I've also built tools in this for automatically converting each day into a time lapse video, and then at the end of a long period of time, -superlapse can be invoked to combine all videos generated so far. You can even combine that with -amen to add a fun little breakcore soundtrack to the video
+
 ## The intention is for this to be triggered via Window's Task Scheduler, for example...
 
 ![image](https://github.com/user-attachments/assets/e4e6fd13-72df-41d6-85b4-f199369d0c79)
