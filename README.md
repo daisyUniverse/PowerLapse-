@@ -10,6 +10,13 @@ This script can be run from anywhere, but keep in mind that it's built to start 
 ![image](https://github.com/user-attachments/assets/400f7d50-38bb-4498-992d-c52b31b2cdb7)
 
 
+## Quick Start Guide
+
+1. Clone or download this repository
+2. Place [CommandCam.exe](https://github.com/tedburke/CommandCam) in the root folder of the script (or let the script install it for you)
+3. Install [FFMPEG](https://www.ffmpeg.org/) to `C:\ffmpeg\bin\ffmpeg.exe` (or let the script install it)
+4. Schedule the script in Task Scheduler (examples provided below)
+
 ## The intention is for this to be triggered via Window's Task Scheduler, for example...
 
 ![image](https://github.com/user-attachments/assets/e4e6fd13-72df-41d6-85b4-f199369d0c79)
